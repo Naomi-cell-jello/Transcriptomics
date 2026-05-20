@@ -10,6 +10,7 @@ Omdat er momenteel geen genezing bestaat voor reuma is het belangrijk om meer in
 - Methode: +- 200 woorden met methode, flowschema. Zie leerdoelen voor mi-
 nimale inhoud. Scripts, data etc. kunnen in een aparte folder met verwijzing.
 
+
 - Resultaten: +- 200 woorden, inclusief correcte verwijzingen.
 
 - Conclusie: +- 200 woorden, inclusief aanbevelingen en onderzoek in context
