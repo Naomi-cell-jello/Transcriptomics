@@ -1,5 +1,5 @@
 # Transcriptomics
-<img src="Figuren/Volcanoplot.png" alt="Volcanoplot" width="600"/>
+<img src="Figuren/Volcano_plot.png" alt="Volcanoplot" width="600"/>
 
 - Inleiding: +- 200 woorden met aanleiding, achtergrondinformatie en doelstel-
 ling. Bronnen (PDF) kunnen in een aparte folder met verwijzing.
