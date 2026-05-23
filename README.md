@@ -20,6 +20,11 @@ Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalys
 
 
 - Resultaten: +- 200 woorden, inclusief correcte verwijzingen.
+De genexpressie analyse met DESeq2 resulteerde in een groot aantal genen die significant verschillend tot expressie kwamen tussen de controlegroep en patiënten met rheumatoïde artritis (padj< 0.05). Zowel opgereguleerde als neer gereguleerde genen werden waargenomen. Zoals weergegeven in de volcano plot (figuur 1).
+
+De GO (Gene Ontology) analyse liet zien dat de differentieel tot expressie gebrachte genen voornamelijk betrokken zijn bij immuungerelateerde processen. De meest verrijkte biologische processen omvatten onder andere leukocyte mediated immunity, lymphocyte differentiation en adaptive immune response (Figuur 2). De resultaten wijzen op een activatie van zowel het aangeboren als het adaptieve immuunstysteem.
+
+De KEGG pathway analyse liet verschillende verrijkte pathways zien in de vergelijking tussen patiënten met reumatoïde artritis en de controlegroep. Enkele van deze pathways, zoals cytokine–cytokine receptor interactie, JAK-STAT signaling pathway en natural killer cell mediated cytotoxicity, zijn direct gerelateerd aan het immuunsysteem. Dit is biologisch relevant, aangezien reumatoïde artritis een auto-immuunziekte is waarbij het immuunsysteem een belangrijke rol speelt. Daarnaast werd echter de ook de pathway olfactory transduction sterk gevonden. Deze pathway is gerelateerd aan reukreceptoren en is niet relevant voor reumatoïde artritis. De verschijning van deze pathway in de analyse is verklaarbaar door de grote hoeveelheid olfactory receptor genen in het genoom. Samenvattend laat de KEGG analyse zien dat er duidelijke veranderingen zijn in immuun-gerelateerde pathways bij reumatoïde artritis, ondanks de aanwezigheid van enkele niet-relevante pathways (figuur 3).
 
 - Conclusie: +- 200 woorden, inclusief aanbevelingen en onderzoek in context
 plaatsen
