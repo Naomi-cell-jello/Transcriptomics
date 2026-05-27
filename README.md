@@ -40,7 +40,7 @@ en controle samples.
 </p>
 
 
-Zowel opgereguleerde als neer gereguleerde genen werden geïdentificeerd, wat wijst op veranderingen in verschillende biologische processen.
+Zowel opgereguleerde als neergereguleerde genen werden geïdentificeerd, wat wijst op veranderingen in verschillende biologische processen.
 De Gene Ontology (GO) analyse liet zien dat de differentieel tot expressie gebrachte genen voornamelijk betrokken zijn bij immuun-gerelateerde biologische processen. De meest verrijkte processen omvatten onder andere leukocyte mediated immunity, lymphocyte mediated immunity, T-cell differentiation en B-cell activation (Figuur 3). 
 <p align="center">
 <img src="Figuren/GO_plot.png" alt="GO_plot" width="600"/>
