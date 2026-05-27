@@ -25,6 +25,12 @@ De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er d
 <p align="center">
 <img src="Figuren/volcano_plot.png" alt="Volcanoplot" width="600"/>
 </p>
+<b>Figuur 2. Volcano plot differentiële genexpressie. De plot toont 
+de log2 fold change tegenover de aangepaste p-waarde (padj) 
+voor alle genen. Significant op- en neer gereguleerde genen zijn zichtbaar, 
+wat wijst op duidelijke verschillen in genexpressie tussen reumatoïde artritis 
+en controle samples.
+
 
 
 Zowel opgereguleerde als neer gereguleerde genen werden geïdentificeerd, wat wijst op veranderingen in verschillende biologische processen.
@@ -32,6 +38,7 @@ De Gene Ontology (GO) analyse liet zien dat de differentieel tot expressie gebra
 <p align="center">
 <img src="Figuren/GO_plot.png" alt="GO_plot" width="600"/>
 </p>
+<b>Figuur 3. Verrijking GO-proces bij reumatoïde artritis. De plot toont de meest verrijkte biologische processen gebaseerd op differentieel tot expressie gebrachte genen tussen reumatoïde artritis en controlegroepen. Opvallend is dat vooral immuun-gerelateerde processen verrijkt zijn, zoals leukocyten- en lymfocyten-gemedieerde immuniteit, T-cel differentiatie en B-cel activatie. Dit wijst op een verhoogde activiteit van het immuunsysteem, wat kenmerkend is voor reumatoïde artritis.
 
 Deze processen wijzen op een verhoogde activiteit van zowel het aangeboren als het adaptieve immuunsysteem.
 De KEGG pathway analyse bevestigde deze bevindingen door de identificatie van relevante immuun-gerelateerde pathways (Yu et al., 2022), zoals cytokine–cytokine receptor interaction en de JAK-STAT signaling pathway (Figuur 4). Deze processen zijn geassocieerd met activatie van zowel het aangeboren als het adaptieve immuunsysteem (Carbon et al., 2020). Daarnaast werd ook de pathway olfactory transduction sterk gevonden. Deze pathway is gerelateerd aan reukreceptoren en is niet relevant voor reumatoïde artritis. De verschijning van deze pathway in de analyse is verklaarbaar door de grote hoeveelheid olfactory receptor genen in het genoom (Niimura, 2012). 
