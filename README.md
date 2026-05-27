@@ -1,15 +1,15 @@
 
+ 
+## Inhoud/structuur
 
-##Inhoud/structuur
 
-
-##Inleiding
+## Inleiding
 
 
 Rheumatoïde artritis is een chronische auto-immuunziekte die wordt gekenmerkt door ontsteking van de gewrichten. Deze ontstekingen kunnen leiden tot blijvende gewrichtsschade en verminderde functionaliteit. De exacte oorzaak van Reuma is nog niet volledig bekend (Feldmann & Maini, 1999). Maar vermoedelijk is het een gevolg van een combinatie van genetische factoren, omgevingsfactoren en één verstoord immuunsysteem. 
 Omdat er momenteel geen genezing bestaat voor reuma is het belangrijk om meer inzicht te krijgen in het moleculaire mechnaisme van de ziekte. Transcriptomics biedt mogelijkheid om genexpressiepatronen te analyseren en een verschil tussen gezond en ziek weefsel te identificeren (Conesa et al., 2016). Hierdoor kunnen betrokken genen en pathways worden getraceerd. In deze analyse wordt RNA-sequentie data geanalyseerd van patiënten met reuma en controles zonder reuma. Het doel van deze analyse is om differitieel tot expressie gebrachte genen te identificeren en te onderzoeken welke Gene Ontology-termen en KEGG pathways betrokken zijn bij de ziekte.
 
-##Methode
+## Methode
 
 In dit onderzoek werd RNA-seq data geanalyseerd van in totaal acht weefsels, afkomstig van vier gezonde controles en vier patiënten met rheumatoïde artritis. De ruwe sequencing reads werden eerst gemapt naar het humane referentiegenoom (GRch38) met behulp van het Rsubread package in R. Vervolgens werd met featureCounts het aantal reads per gen bepaald, wat resulteerde in een count matrix. 
 
@@ -17,20 +17,20 @@ Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalys
 <p align="center">
 <img src="Figuren/Workflow.png" alt="Workflow" width="600"/>
 </p>
-<b>**Figuur 1. Weergave van de workflow. **
+**Figuur 1. Weergave van de workflow. **
 <p>
-##Resultaten
+## Resultaten
 
 De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er duidelijke verschillen bestaan in genexpressie tussen patiënten met reumatoïde artritis en gezonde controles. Een groot aantal genen werd significant verschillend tot expressie gebracht (padj < 0.05), wat zichtbaar is in de volcano plot (Figuur 2). 
 <p align="center">
 <img src="Figuren/volcano_plot.png" alt="Volcanoplot" width="600"/>
 </p>
-<b>**Figuur 2. Volcano plot differentiële genexpressie.**
+**Figuur 2. Volcano plot differentiële genexpressie.**
 De plot toont de log2 fold change tegenover de aangepaste p-waarde (padj) 
 voor alle genen. Significant op- en neer gereguleerde genen zijn zichtbaar, 
 wat wijst op duidelijke verschillen in genexpressie tussen reumatoïde artritis 
 en controle samples.
-<p>
+</p>
 
 
 Zowel opgereguleerde als neer gereguleerde genen werden geïdentificeerd, wat wijst op veranderingen in verschillende biologische processen.
@@ -38,9 +38,9 @@ De Gene Ontology (GO) analyse liet zien dat de differentieel tot expressie gebra
 <p align="center">
 <img src="Figuren/GO_plot.png" alt="GO_plot" width="600"/>
 </p>
-<b>**Figuur 3. Verrijking GO-proces bij reumatoïde artritis.**
+**Figuur 3. Verrijking GO-proces bij reumatoïde artritis.**
 De plot toont de meest verrijkte biologische processen gebaseerd op differentieel tot expressie gebrachte genen tussen reumatoïde artritis en controlegroepen. Opvallend is dat vooral immuun-gerelateerde processen verrijkt zijn, zoals leukocyten- en lymfocyten-gemedieerde immuniteit, T-cel differentiatie en B-cel activatie. Dit wijst op een verhoogde activiteit van het immuunsysteem, wat kenmerkend is voor reumatoïde artritis.
-<p>
+</p>
 
 
 Deze processen wijzen op een verhoogde activiteit van zowel het aangeboren als het adaptieve immuunsysteem.
@@ -49,17 +49,17 @@ De KEGG pathway analyse bevestigde deze bevindingen door de identificatie van re
 <p align="center">
 <img src="Figuren/kegg_pathway_plot.png" alt="KEGG_pathway" width="600"/>
 </p>
-<b>**Figuur 4. Kegg pathway plot.**
+**Figuur 4. Kegg pathway plot.**
 Deze plot toont de meest verrijkte pathways. Immuun-gerelateerde pathways 
 zoals cytokine signaling en de JAK-STAT signaling pathway zijn prominent 
 aanwezig. De pathway olfactory transduction wordt ook weergegeven, Deze wordt beschouwd als irrelevant. 
-<p>
+</p>
 
 Deze processen zijn geassocieerd met activatie van zowel het aangeboren als het adaptieve immuunsysteem (Carbon et al., 2020). Daarnaast werd ook de pathway olfactory transduction sterk gevonden. Deze pathway is gerelateerd aan reukreceptoren en is niet relevant voor reumatoïde artritis. De verschijning van deze pathway in de analyse is verklaarbaar door de grote hoeveelheid olfactory receptor genen in het genoom (Niimura, 2012). 
 Gezamenlijk tonen deze resultaten aan dat veranderingen in genexpressie bij reumatoïde artritis voornamelijk gerelateerd zijn aan immuunactivatie en ontstekingsprocessen.
 
 
-##Conclusie
+## Conclusie
 De RNA-seq analyse van gewrichtslijmvlies van patiënten met reumatoïde artritis en gezonde controles heeft aangetoond dat er duidelijke verschillen bestaan in genexpressie tussen beide groepen. Een groot aantal genen werd significant differentieel tot expressie gebracht, wat wijst op veranderingen in verschillende biologische processen.
 De GO-analyse liet zien dat vooral immuun-gerelateerde processen verrijkt zijn, zoals leukocyten- en lymfocyten-gemedieerde immuniteit, T-cel differentiatie en B-cel activatie. Deze bevindingen benadrukken de centrale rol van het immuunsysteem bij het ontstaan en de progressie van reumatoïde artritis en komen overeen met één eerder onderzoek (Platzer et al., 2019).
 De KEGG pathway analyse bevestigde deze resultaten door de identificatie van belangrijke immuun-gerelateerde pathways, zoals cytokine signaling en de JAK-STAT signaling pathway. Hoewel ook niet-relevante pathways zoals olfactory transduction naar voren kwamen. 
@@ -67,7 +67,7 @@ Voor vervolgonderzoek wordt aanbevolen om strengere filtering van genen toe te p
 
 
 
-##Referentie 
+## Referentie 
 
 Cabral, N. (2004b). Dalí como peligro (1904-1989). Letras Libres, 6(68), 28–31. https://doi.org/10.12659/msm.915451
 Yu, F., Hu, G., Li, L., Yu, B., & Liu, R. (2022). Identification of key candidate genes and biological pathways in the synovial tissue of patients with rheumatoid arthritis. Experimental And Therapeutic Medicine, 23(6), 368. https://doi.org/10.3892/etm.2022.11295
