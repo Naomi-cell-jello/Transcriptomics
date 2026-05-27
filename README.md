@@ -3,6 +3,9 @@
 <img src="Figuren/volcano_plot.png" alt="Volcanoplot" width="600"/>
 </p>
 
+Inhoud/structuur
+
+
 - Inleiding
 
 
@@ -18,8 +21,19 @@ Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalys
 
 - Resultaten
 
-De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er duidelijke verschillen bestaan in genexpressie tussen patiënten met reumatoïde artritis en gezonde controles. Een groot aantal genen werd significant verschillend tot expressie gebracht (padj < 0.05), wat zichtbaar is in de volcano plot (Figuur 2). Zowel opgereguleerde als neer gereguleerde genen werden geïdentificeerd, wat wijst op veranderingen in verschillende biologische processen.
-De Gene Ontology (GO) analyse liet zien dat de differentieel tot expressie gebrachte genen voornamelijk betrokken zijn bij immuun-gerelateerde biologische processen. De meest verrijkte processen omvatten onder andere leukocyte mediated immunity, lymphocyte mediated immunity, T-cell differentiation en B-cell activation (Figuur 3). Deze processen wijzen op een verhoogde activiteit van zowel het aangeboren als het adaptieve immuunsysteem.
+De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er duidelijke verschillen bestaan in genexpressie tussen patiënten met reumatoïde artritis en gezonde controles. Een groot aantal genen werd significant verschillend tot expressie gebracht (padj < 0.05), wat zichtbaar is in de volcano plot (Figuur 2). 
+<p align="center">
+<img src="Figuren/volcano_plot.png" alt="Volcanoplot" width="600"/>
+</p>
+
+
+Zowel opgereguleerde als neer gereguleerde genen werden geïdentificeerd, wat wijst op veranderingen in verschillende biologische processen.
+De Gene Ontology (GO) analyse liet zien dat de differentieel tot expressie gebrachte genen voornamelijk betrokken zijn bij immuun-gerelateerde biologische processen. De meest verrijkte processen omvatten onder andere leukocyte mediated immunity, lymphocyte mediated immunity, T-cell differentiation en B-cell activation (Figuur 3). 
+<p align="center">
+<img src="Figuren/GO_plot.png" alt="GO_plot" width="600"/>
+</p>
+
+Deze processen wijzen op een verhoogde activiteit van zowel het aangeboren als het adaptieve immuunsysteem.
 De KEGG pathway analyse bevestigde deze bevindingen door de identificatie van relevante immuun-gerelateerde pathways (Yu et al., 2022), zoals cytokine–cytokine receptor interaction en de JAK-STAT signaling pathway (Figuur 4). Deze processen zijn geassocieerd met activatie van zowel het aangeboren als het adaptieve immuunsysteem (Carbon et al., 2020). Daarnaast werd ook de pathway olfactory transduction sterk gevonden. Deze pathway is gerelateerd aan reukreceptoren en is niet relevant voor reumatoïde artritis. De verschijning van deze pathway in de analyse is verklaarbaar door de grote hoeveelheid olfactory receptor genen in het genoom (Niimura, 2012). 
 Gezamenlijk tonen deze resultaten aan dat veranderingen in genexpressie bij reumatoïde artritis voornamelijk gerelateerd zijn aan immuunactivatie en ontstekingsprocessen.
 
