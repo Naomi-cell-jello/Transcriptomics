@@ -1,6 +1,12 @@
 
 ## Inhoud/structuur
 
+- `data/raw/` – gebruikte dataset
+- `Casus` - verwerkte datasets gegenereerd met scripts 
+- `Figuren/` - grafieken
+- `bronnen/` - gebruikte bronnen 
+- `README.md` - het document om de tekst hier te genereren
+
 
 
 
