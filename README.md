@@ -1,10 +1,7 @@
 
 ## Inhoud/structuur
-data/
-├── raw/
-└── processed/
-Bronnen/
-├──gebruikte 
+
+
 
 
 
