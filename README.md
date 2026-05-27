@@ -24,7 +24,7 @@ Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalys
 
 **Figuur 1. Weergave van de workflow. **
 
-##Resultaten
+## Resultaten
 
 De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er duidelijke verschillen bestaan in genexpressie tussen patiënten met reumatoïde artritis en gezonde controles. Een groot aantal genen werd significant verschillend tot expressie gebracht (padj < 0.05), wat zichtbaar is in de volcano plot (Figuur 2). 
 <p align="center">
@@ -49,7 +49,6 @@ De Gene Ontology (GO) analyse liet zien dat de differentieel tot expressie gebra
 **Figuur 3. Verrijking GO-proces bij reumatoïde artritis.**
 
 De plot toont de meest verrijkte biologische processen gebaseerd op differentieel tot expressie gebrachte genen tussen reumatoïde artritis en controlegroepen. Opvallend is dat vooral immuun-gerelateerde processen verrijkt zijn, zoals leukocyten- en lymfocyten-gemedieerde immuniteit, T-cel differentiatie en B-cel activatie. Dit wijst op een verhoogde activiteit van het immuunsysteem, wat kenmerkend is voor reumatoïde artritis.
-</p>
 
 
 Deze processen wijzen op een verhoogde activiteit van zowel het aangeboren als het adaptieve immuunsysteem.
@@ -64,7 +63,7 @@ De KEGG pathway analyse bevestigde deze bevindingen door de identificatie van re
 Deze plot toont de meest verrijkte pathways. Immuun-gerelateerde pathways 
 zoals cytokine signaling en de JAK-STAT signaling pathway zijn prominent 
 aanwezig. De pathway olfactory transduction wordt ook weergegeven, Deze wordt beschouwd als irrelevant. 
-</p>
+
 
 Deze processen zijn geassocieerd met activatie van zowel het aangeboren als het adaptieve immuunsysteem (Carbon et al., 2020). Daarnaast werd ook de pathway olfactory transduction sterk gevonden. Deze pathway is gerelateerd aan reukreceptoren en is niet relevant voor reumatoïde artritis. De verschijning van deze pathway in de analyse is verklaarbaar door de grote hoeveelheid olfactory receptor genen in het genoom (Niimura, 2012). 
 Gezamenlijk tonen deze resultaten aan dat veranderingen in genexpressie bij reumatoïde artritis voornamelijk gerelateerd zijn aan immuunactivatie en ontstekingsprocessen.
