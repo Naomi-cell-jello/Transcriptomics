@@ -30,7 +30,7 @@ colnames(counts)=c("normaal1", "normaal2", "normaal3", "normaal4", "reuma1", "re
 head(counts)
 write.csv(counts, "reuma_countmatrix.csv")
 counts=count_matrix_RA
-BiocManager::install("DESeq2")
+aBiocManager::install("DESeq2")
 BiocManager::install("KEGGREST")
 BiocManager::install("EnhancedVolcano")
 BiocManager::install("pathview")
@@ -98,9 +98,12 @@ ego <- enrichGO(
    pvalueCutoff = 0.05,
    readable = TRUE)
 
-dotplot(ego, showCategory = 10)+labs(title="Verrijking GO-proces bij reumatoïde artritis")
 
-ggsave("GO_plot.png", width = 8, height = 6, dpi = 300)
+dotplot(ego, showCategory = 10)+scale_y_discrete(labels = function(x) str_wrap(x, width = 40)) +labs(title = "Verrijking GO-proces bij reumatoïde artritis") +theme(axis.text.y = element_text(size = 9),plot.margin = margin(10, 10, 10, 40))
+
+
+
+ggsave("GO_plot.png", width = 12, height = 8, dpi = 300)
 
 #KEGG pathways
 
