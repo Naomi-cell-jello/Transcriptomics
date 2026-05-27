@@ -14,10 +14,13 @@ Omdat er momenteel geen genezing bestaat voor reuma is het belangrijk om meer in
 In dit onderzoek werd RNA-seq data geanalyseerd van in totaal acht weefsels, afkomstig van vier gezonde controles en vier patiënten met rheumatoïde artritis. De ruwe sequencing reads werden eerst gemapt naar het humane referentiegenoom (GRch38) met behulp van het Rsubread package in R. Vervolgens werd met featureCounts het aantal reads per gen bepaald, wat resulteerde in een count matrix. 
 
 Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalyseerd met behulp van het DESeq2 package. Hierbij werden genen met aangepaste p-waarde (padj) <0.05 als significant beschouwd. Om betekenis te geven aan de tot expressie gebrachte genen, werd een Gene Ontology (GO) analyse uitgevoerd met behulp van clusterProfiler (Carbon et al., 2021). Hiermee konden genen worden gegroepeerd op basis van hun betrokkenheid bij biologische processen. Daarnaast werd een KEGG pathway analyse uitgevoerd om inzicht te krijgen in welke signaalroutes en pathways betrokken zijn bij reuma. Het werkschema van de analyse is weergegeven in figuur 1. 
+
 <p align="center">
-<img src="Figuren/Workflow.png" alt="Workflow" width="600"/>
+  <img src="Figuren/Workflow.png" alt="Workflow" width="600"/>
 </p>
+
 **Figuur 1. Weergave van de workflow. **
+
 <p>
 ## Resultaten
 
@@ -25,7 +28,9 @@ De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er d
 <p align="center">
 <img src="Figuren/volcano_plot.png" alt="Volcanoplot" width="600"/>
 </p>
+
 **Figuur 2. Volcano plot differentiële genexpressie.**
+
 De plot toont de log2 fold change tegenover de aangepaste p-waarde (padj) 
 voor alle genen. Significant op- en neer gereguleerde genen zijn zichtbaar, 
 wat wijst op duidelijke verschillen in genexpressie tussen reumatoïde artritis 
@@ -38,7 +43,9 @@ De Gene Ontology (GO) analyse liet zien dat de differentieel tot expressie gebra
 <p align="center">
 <img src="Figuren/GO_plot.png" alt="GO_plot" width="600"/>
 </p>
+
 **Figuur 3. Verrijking GO-proces bij reumatoïde artritis.**
+
 De plot toont de meest verrijkte biologische processen gebaseerd op differentieel tot expressie gebrachte genen tussen reumatoïde artritis en controlegroepen. Opvallend is dat vooral immuun-gerelateerde processen verrijkt zijn, zoals leukocyten- en lymfocyten-gemedieerde immuniteit, T-cel differentiatie en B-cel activatie. Dit wijst op een verhoogde activiteit van het immuunsysteem, wat kenmerkend is voor reumatoïde artritis.
 </p>
 
@@ -49,7 +56,9 @@ De KEGG pathway analyse bevestigde deze bevindingen door de identificatie van re
 <p align="center">
 <img src="Figuren/kegg_pathway_plot.png" alt="KEGG_pathway" width="600"/>
 </p>
+
 **Figuur 4. Kegg pathway plot.**
+
 Deze plot toont de meest verrijkte pathways. Immuun-gerelateerde pathways 
 zoals cytokine signaling en de JAK-STAT signaling pathway zijn prominent 
 aanwezig. De pathway olfactory transduction wordt ook weergegeven, Deze wordt beschouwd als irrelevant. 
