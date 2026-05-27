@@ -15,10 +15,12 @@ In dit onderzoek werd RNA-seq data geanalyseerd van in totaal acht weefsels, afk
 
 Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalyseerd met behulp van het DESeq2 package. Hierbij werden genen met aangepaste p-waarde (padj) <0.05 als significant beschouwd. Om betekenis te geven aan de tot expressie gebrachte genen, werd een Gene Ontology (GO) analyse uitgevoerd met behulp van clusterProfiler (Carbon et al., 2021). Hiermee konden genen worden gegroepeerd op basis van hun betrokkenheid bij biologische processen. Daarnaast werd een KEGG pathway analyse uitgevoerd om inzicht te krijgen in welke signaalroutes en pathways betrokken zijn bij reuma. Het werkschema van de analyse is weergegeven in figuur 1. 
 
+<<<<<<< HEAD
 <p align="center">
   <img src="Figuren/Workflow.png" alt="Workflow" width="600"/>
 </p>
 
+=======
 **Figuur 1. Weergave van de workflow. **
 
 <p>
