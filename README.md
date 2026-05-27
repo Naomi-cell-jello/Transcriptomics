@@ -18,8 +18,7 @@ In dit onderzoek werd RNA-seq data geanalyseerd van in totaal acht weefsels, afk
 Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalyseerd met behulp van het DESeq2 package. Hierbij werden genen met aangepaste p-waarde (padj) <0.05 als significant beschouwd. Om betekenis te geven aan de tot expressie gebrachte genen, werd een Gene Ontology (GO) analyse uitgevoerd met behulp van clusterProfiler (Carbon et al., 2021). Hiermee konden genen worden gegroepeerd op basis van hun betrokkenheid bij biologische processen. Daarnaast werd een KEGG pathway analyse uitgevoerd om inzicht te krijgen in welke signaalroutes en pathways betrokken zijn bij reuma. Het werkschema van de analyse is weergegeven in figuur 1. 
 
 <p align="center">
-![Workflow](Figuren/Workflow1.png)
-</p>
+<img src="Figuren/Workflow1.PNG" alt="workflow" width="600"/>
 
 
 **Figuur 1. Weergave van de workflow. **
@@ -37,7 +36,7 @@ De plot toont de log2 fold change tegenover de aangepaste p-waarde (padj)
 voor alle genen. Significant op- en neer gereguleerde genen zijn zichtbaar, 
 wat wijst op duidelijke verschillen in genexpressie tussen reumatoïde artritis 
 en controle samples.
-</p>
+
 
 
 Zowel opgereguleerde als neer gereguleerde genen werden geïdentificeerd, wat wijst op veranderingen in verschillende biologische processen.
