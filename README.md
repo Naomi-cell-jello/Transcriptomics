@@ -1,8 +1,9 @@
 
 ## Inhoud/structuur
-**README.md** - hoofddocument
-**Bronnen** - gebruikte bronnen
-**Figuren** - grafieken
+- 'ReadME.md' - Hoofddocument
+- -'Bronnen/'- gebruikte bronnen
+- 'figuren/' - grafieken
+
 
 
 
