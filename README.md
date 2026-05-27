@@ -1,6 +1,9 @@
 
- 
-## Inhoud/structuur
+## Inhoud van de repository
+**README.md** - hoofddocument
+**Bronnen** gebruikte bronnen
+**Figuren**grafieken
+
 
 
 ## Inleiding
