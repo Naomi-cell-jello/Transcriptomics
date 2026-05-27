@@ -17,6 +17,7 @@ Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalys
 <p align="center">
 <img src="Figuren/Workflow.png" alt="Workflow" width="600"/>
 </p>
+<b>Figuur 1. Weergave van de workflow. 
 
 - Resultaten
 
@@ -47,7 +48,10 @@ De KEGG pathway analyse bevestigde deze bevindingen door de identificatie van re
 <p align="center">
 <img src="Figuren/kegg_pathway_plot.png" alt="KEGG_pathway" width="600"/>
 </p>
-
+<b>FIguur 4. Kegg pathway plot. 
+Deze plot toont de meest verrijkte pathways. Immuun-gerelateerde pathways 
+zoals cytokine signaling en de JAK-STAT signaling pathway zijn prominent 
+aanwezig. De pathway olfactory transduction wordt ook weergegeven, Deze wordt beschouwd als irrelevant. 
 
 
 Deze processen zijn geassocieerd met activatie van zowel het aangeboren als het adaptieve immuunsysteem (Carbon et al., 2020). Daarnaast werd ook de pathway olfactory transduction sterk gevonden. Deze pathway is gerelateerd aan reukreceptoren en is niet relevant voor reumatoïde artritis. De verschijning van deze pathway in de analyse is verklaarbaar door de grote hoeveelheid olfactory receptor genen in het genoom (Niimura, 2012). 
