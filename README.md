@@ -16,6 +16,7 @@ Omdat er momenteel geen genezing bestaat voor reuma is het belangrijk om meer in
 - `Figuren/` - grafieken
 - `bronnen/` - gebruikte bronnen 
 - `README` - het document om de tekst hier te genereren
+- 'Data_stewardship'- aantoning van competentie beheren 
 
 
 ## Methode
