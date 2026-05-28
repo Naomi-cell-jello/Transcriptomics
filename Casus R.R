@@ -84,13 +84,16 @@ library(DOSE)
 sig_genes <- resultaten[resultaten$padj < 0.05, ]
 
 #GO-analyse
+#Significante genen als lijst maken
 genen_list <- rownames(sig_genes)
 
+#gen-namen omzetten naar ID-systeem
 gene_df <- bitr(genen_list,
                 fromType = "SYMBOL",
                 toType = "ENTREZID",
                 OrgDb = org.Hs.eg.db)
 
+#Welke genen komen vaker voor in mijn genen dan je normaal verwacht:
 ego <- enrichGO(
    gene = gene_df$ENTREZID,
    OrgDb = org.Hs.eg.db,
@@ -98,28 +101,35 @@ ego <- enrichGO(
    pvalueCutoff = 0.05,
    readable = TRUE)
 
+#dotplotmaken
+dotplot(ego, showCategory = 10)+scale_y_discrete(labels = function(x) 
+  str_wrap(x, width = 40)) +labs(title = "Verrijking GO-proces bij reumatoïde artritis") +theme(axis.text.y = element_text(size = 9),plot.margin = margin(10, 10, 10, 40))
 
-dotplot(ego, showCategory = 10)+scale_y_discrete(labels = function(x) str_wrap(x, width = 40)) +labs(title = "Verrijking GO-proces bij reumatoïde artritis") +theme(axis.text.y = element_text(size = 9),plot.margin = margin(10, 10, 10, 40))
 
-
-
+#plot opslaan
 ggsave("GO_plot.png", width = 12, height = 8, dpi = 300)
 
 #KEGG pathways
 
+
+#genen_list vergelijken met KEGG pathways
 kegg <- enrichKEGG(
   gene = gene_df$ENTREZID,
   organism = "hsa",
   pvalueCutoff = 0.05)
 
+#omzetten naar data frame
 kegg_df <- as.data.frame(kegg)
 
+#percentage berekenen
 kegg_df$Percentage <- (kegg_df$Count / sum(kegg_df$Count)) * 100
 
+#sorteren
 kegg_df <- kegg_df[order(kegg_df$Percentage, decreasing = TRUE), ]
-
 top10 <- head(kegg_df, 10)
 
+
+#plot maken
 ggplot(top10, aes(x = Percentage, 
                  y = reorder(Description, Percentage))) +
   geom_point(aes(size = Count, color = p.adjust)) +
