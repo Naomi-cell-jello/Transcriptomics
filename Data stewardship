@@ -1,0 +1,26 @@
+
+Tijdens onderzoek produceer je veel verschillende soorten data, zoals Word-documenten, R-scripts, grafieken en tabellen. Het is belangrijk dat deze data goed georganiseerd is, zodat je alles kunt terugvinden. Zonder goede organisatie is een onderzoek niet reproduceerbaar en dus minder betrouwbaar.
+
+Om overzicht te houden maak je gebruik van een duidelijke mappenstructuur. Bijvoorbeeld:
+Bt_jaar2/documenten/GitHub/Casus_Transcriptomics/Bronnen.  
+Op deze manier kun je bestanden snel terugvinden.
+
+Daarnaast werk je in het onderzoeksveld vaak samen met anderen. Daarom is het belangrijk dat niet alleen jij, maar ook je collega’s de data kunnen begrijpen en terugvinden. Dit vraagt om duidelijke structuur en naamgeving.
+
+Bestanden geef je een duidelijke naam met een hoofdonderwerp en aanvullende informatie. Bijvoorbeeld:
+Bt2p4_Transcriptomics_competentiebeheer.  
+Hierin is direct zichtbaar wanneer het bestand is gemaakt, voor welk project en wat de inhoud is.
+
+Versiebeheer betekent dat je wijzigingen in bestanden bijhoudt. Dit helpt om overzicht te bewaren, fouten terug te draaien en voorkomt dat je werk kwijtraakt.
+
+Voor goede documentatie in scripts voeg je commentaarregels toe. Bijvoorbeeld:
+# inladen countmatrix  
+Hierdoor blijft je code ook op lange termijn begrijpelijk.
+
+Het meest gebruikte platform voor het delen van scripts is GitHub, omdat je hier eenvoudig kunt samenwerken en versiebeheer kunt toepassen. Voor eenvoudige opslag kun je ook OneDrive gebruiken.
+
+Voor data-analyse gebruik je tools zoals R (bijvoorbeeld DESeq2 en clusterProfiler), Python of Excel. Excel is vooral geschikt voor eenvoudige analyses.
+
+Bij gevoelige of persoonlijke data is het belangrijk om deze nooit openbaar te maken. Je slaat deze beveiligd op en anonimiseert gegevens door geen namen of persoonsgegevens te gebruiken.
+
+Open data betekent dat data vrij toegankelijk is voor anderen. Dit is belangrijk omdat het onderzoek controleerbaar maakt en anderen in staat stelt resultaten te reproduceren.
