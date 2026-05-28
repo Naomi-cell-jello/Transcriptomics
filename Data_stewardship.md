@@ -13,7 +13,7 @@ Hierin is direct zichtbaar wanneer het bestand is gemaakt, voor welk project en 
 Versiebeheer betekent dat je wijzigingen in bestanden bijhoudt. Dit helpt om overzicht te bewaren, fouten terug te draaien en voorkomt dat je werk kwijtraakt.
 
 Voor goede documentatie in scripts voeg je commentaarregels toe. Bijvoorbeeld:
-# inladen countmatrix  
+#inladen countmatrix  
 Hierdoor blijft je code ook op lange termijn begrijpelijk.
 
 Het meest gebruikte platform voor het delen van scripts is GitHub, omdat je hier eenvoudig kunt samenwerken en versiebeheer kunt toepassen. Voor eenvoudige opslag kun je ook OneDrive gebruiken.
