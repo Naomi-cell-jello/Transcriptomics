@@ -24,8 +24,7 @@ In dit onderzoek werd RNA-seq data geanalyseerd van in totaal acht weefsels, afk
 
 Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalyseerd met behulp van het DESeq2 (versie 1.50.2) package. Hierbij werden genen met aangepaste p-waarde (padj) <0.05 als significant beschouwd. Om betekenis te geven aan de tot expressie gebrachte genen, werd een Gene Ontology (GO) analyse uitgevoerd met behulp van clusterProfiler (versie  4.18.4) [3]. Hiermee konden genen worden gegroepeerd op basis van hun betrokkenheid bij biologische processen. Daarnaast werd een KEGG pathway analyse uitgevoerd om inzicht te krijgen in welke signaalroutes en pathways betrokken zijn bij reuma. Het werkschema van de analyse is weergegeven in figuur 1. 
 
-<p align="center">
-<img src="Figuren/Flowschema.PNG" alt="flowschema" width="200"/>
+
 
 **Figuur 1. Flowschema.** Overzicht verschillende stappen tijdens dit onderzoek
 
@@ -49,9 +48,7 @@ De Gene Ontology (GO) analyse liet zien dat de differentieel tot expressie gebra
 <img src="Figuren/GO_plot.png" alt="GO_plot" width="600"/>
 </p>
 
-**Figuur 3. Verrijking GO-proces bij reumatoïde artritis.**
-
-De plot toont de meest verrijkte biologische processen gebaseerd op differentieel tot expressie gebrachte genen tussen reumatoïde artritis en controlegroepen. Opvallend is dat vooral immuun-gerelateerde processen verrijkt zijn, zoals leukocyten- en lymfocyten-gemedieerde immuniteit, T-cel differentiatie en B-cel activatie. Dit wijst op een verhoogde activiteit van het immuunsysteem, wat kenmerkend is voor reumatoïde artritis.
+**Figuur 3. Verrijking GO-proces bij reumatoïde artritis.**De plot toont de meest verrijkte biologische processen gebaseerd op differentieel tot expressie gebrachte genen tussen reumatoïde artritis en controlegroepen. Opvallend is dat vooral immuun-gerelateerde processen verrijkt zijn, zoals leukocyten- en lymfocyten-gemedieerde immuniteit, T-cel differentiatie en B-cel activatie. Dit wijst op een verhoogde activiteit van het immuunsysteem, wat kenmerkend is voor reumatoïde artritis.
 
 
 Deze processen wijzen op een verhoogde activiteit van zowel het aangeboren als het adaptieve immuunsysteem.
@@ -61,9 +58,7 @@ De KEGG pathway analyse bevestigde deze bevindingen door de identificatie van re
 <img src="Figuren/kegg_pathway_plot.png" alt="KEGG_pathway" width="600"/>
 </p>
 
-**Figuur 4. Kegg pathway plot.**
-
-Deze plot toont de meest verrijkte pathways. Immuun-gerelateerde pathways 
+**Figuur 4. Kegg pathway plot.**Deze plot toont de meest verrijkte pathways. Immuun-gerelateerde pathways 
 zoals cytokine signaling en de JAK-STAT signaling pathway zijn prominent 
 aanwezig. De pathway olfactory transduction wordt ook weergegeven. Deze wordt beschouwd als irrelevant. 
 
