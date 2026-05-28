@@ -1,12 +1,4 @@
 
-## Inhoud/structuur
-
-- `data/raw/` – gebruikte dataset
-- `Casus` - verwerkte datasets gegenereerd met scripts 
-- `Figuren/` - grafieken
-- `bronnen/` - gebruikte bronnen 
-- `README.md` - het document om de tekst hier te genereren
-
 
 
 
@@ -16,6 +8,15 @@
 
 Rheumatoïde artritis is een chronische auto-immuunziekte die wordt gekenmerkt door ontsteking van de gewrichten. Deze ontstekingen kunnen leiden tot blijvende gewrichtsschade en verminderde functionaliteit. De exacte oorzaak van Reuma is nog niet volledig bekend (Feldmann & Maini, 1999). Maar vermoedelijk is het een gevolg van een combinatie van genetische factoren, omgevingsfactoren én een verstoord immuunsysteem. 
 Omdat er momenteel geen genezing bestaat voor reuma is het belangrijk om meer inzicht te krijgen in het moleculaire mechanisme van de ziekte. Transcriptomics biedt mogelijkheid om genexpressiepatronen te analyseren en een verschil tussen gezond en ziek weefsel te identificeren (Conesa et al., 2016). Hierdoor kunnen betrokken genen en pathways worden getraceerd. In deze analyse wordt RNA-sequentie data geanalyseerd van patiënten met reuma en controles zonder reuma. Het doel van deze analyse is om differentieel tot expressie gebrachte genen te identificeren en te onderzoeken welke Gene Ontology-termen en KEGG pathways betrokken zijn bij de ziekte.
+
+## Inhoud/structuur
+
+- `data/raw/` – gebruikte dataset
+- `Casus` - verwerkte datasets gegenereerd met scripts 
+- `Figuren/` - grafieken
+- `bronnen/` - gebruikte bronnen 
+- `README.md` - het document om de tekst hier te genereren
+
 
 ## Methode
 
