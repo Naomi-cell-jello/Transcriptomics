@@ -1,12 +1,6 @@
-Tijdens onderzoek produceer je veel verschillende soorten data, zoals Word-documenten, R-scripts, grafieken en tabellen. Het is belangrijk dat deze data goed georganiseerd is, zodat je alles kunt terugvinden. Zonder goede organisatie is een onderzoek niet reproduceerbaar en dus minder betrouwbaar.
+Tijdens onderzoek produceer je veel verschillende soorten data, zoals Word-documenten, R-scripts, grafieken en tabellen. Het is belangrijk dat deze data goed georganiseerd is, zodat je alles kunt terugvinden. Zonder goede organisatie is een onderzoek niet reproduceerbaar en dus minder betrouwbaar. Om overzicht te houden maak je gebruik van een duidelijke mappenstructuur. Bijvoorbeeld: Bt_jaar2/documenten/GitHub/Casus_Transcriptomics/Bronnen. Op deze manier kun je bestanden snel terugvinden.
 
-Om overzicht te houden maak je gebruik van een duidelijke mappenstructuur. Bijvoorbeeld:
-Bt_jaar2/documenten/GitHub/Casus_Transcriptomics/Bronnen.  
-Op deze manier kun je bestanden snel terugvinden.
-
-Daarnaast werk je in het onderzoeksveld vaak samen met anderen. Daarom is het belangrijk dat niet alleen jij, maar ook je collega’s de data kunnen begrijpen en terugvinden. Dit vraagt om duidelijke structuur en naamgeving.
-
-Bestanden geef je een duidelijke naam met een hoofdonderwerp en aanvullende informatie. Bijvoorbeeld:
+Daarnaast werk je in het onderzoeksveld vaak samen met anderen. Daarom is het belangrijk dat niet alleen jij, maar ook je collega’s de data kunnen begrijpen en terugvinden. Dit vraagt om duidelijke structuur en naamgeving. Bestanden geef je een duidelijke naam met een hoofdonderwerp en aanvullende informatie. Bijvoorbeeld:
 Bt2p4_Transcriptomics_competentiebeheer.  
 Hierin is direct zichtbaar wanneer het bestand is gemaakt, voor welk project en wat de inhoud is.Versiebeheer betekent dat je wijzigingen in bestanden bijhoudt. Dit helpt om overzicht te bewaren, fouten terug te draaien en voorkomt dat je werk kwijtraakt.
 
