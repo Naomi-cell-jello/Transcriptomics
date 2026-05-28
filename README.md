@@ -11,11 +11,11 @@ Omdat er momenteel geen genezing bestaat voor reuma is het belangrijk om meer in
 
 ## Inhoud/structuur
 
-- `data/raw/` – gebruikte dataset
-- `Casus` - verwerkte datasets gegenereerd met scripts 
+- `data_RA_raw` – gebruikte dataset
+- `Casus R` - verwerkte datasets gegenereerd met scripts 
 - `Figuren/` - grafieken
 - `bronnen/` - gebruikte bronnen 
-- `README.md` - het document om de tekst hier te genereren
+- `README` - het document om de tekst hier te genereren
 
 
 ## Methode
