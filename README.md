@@ -83,6 +83,7 @@ Voor vervolgonderzoek wordt aanbevolen om strengere filtering van genen toe te p
 
 ## Referentie 
 
+ [deze README.md file](README.md)
 Cabral, N. (2004b). Dalí como peligro (1904-1989). Letras Libres, 6(68), 28–31. https://doi.org/10.12659/msm.915451
 Yu, F., Hu, G., Li, L., Yu, B., & Liu, R. (2022). Identification of key candidate genes and biological pathways in the synovial tissue of patients with rheumatoid arthritis. Experimental And Therapeutic Medicine, 23(6), 368. https://doi.org/10.3892/etm.2022.11295
 Carbon, S., Douglass, E., Good, B. M., Unni, D. R., Harris, N. L., Mungall, C. J., Basu, S., Chisholm, R. L., Dodson, R. J., Hartline, E., Fey, P., Thomas, P. D., Albou, L., Ebert, D., Kesling, M. J., Mi, H., Muruganujan, A., Huang, X., Mushayahama, T., . . . Karra, K. (2020b). The Gene Ontology resource: enriching a GOld mine. Nucleic Acids Research, 49(D1), D325–D334. https://doi.org/10.1093/nar/gkaa1113
