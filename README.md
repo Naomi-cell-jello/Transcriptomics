@@ -75,7 +75,7 @@ De GO-analyse liet zien dat vooral immuun-gerelateerde processen verrijkt zijn, 
 De KEGG pathway analyse bevestigde deze resultaten door de identificatie van belangrijke immuun-gerelateerde pathways, zoals cytokine signaling en de JAK-STAT signaling pathway. Hoewel ook niet-relevante pathways zoals olfactory transduction naar voren kwamen. 
 Voor vervolgonderzoek wordt aanbevolen om strengere filtering van genen toe te passen en meerdere datasets te analyseren om de betrouwbaarheid van de resultaten te vergroten [7].
 
-
+git commit -m "Toegevoegd mapje competentie beheren"
 
 
 ## Referentie 
