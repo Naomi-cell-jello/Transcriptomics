@@ -29,7 +29,7 @@ Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalys
 </p>
 
 
-**Figuur 1. Flowschema.** Overzicht verschillende stappen tijdens dit onderzoek.
+**Figuur 1. Flowschema.** Overzicht van de RNA-seq analyse. De figuur toont de stappen van referentiegenoom-indexeren en mapping van de RNA-seq reads tot statistische analyse.
 
 ## Resultaten
 
