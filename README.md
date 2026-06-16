@@ -86,13 +86,11 @@ Gezamenlijk tonen deze resultaten aan dat veranderingen in genexpressie bij reum
 het volledige script dat voor deze analyse is gebruikt is beschikbaar in deze Github repository (zie map ‘Casus R’).
 
 ## Conclusie
-De RNA-seq analyse van gewrichtslijmvlies van patiënten met reumatoïde artritis en gezonde controles heeft aangetoond dat er duidelijke verschillen bestaan in genexpressie tussen beide groepen. Een groot aantal genen werd significant differentieel tot expressie gebracht, wat wijst op veranderingen in verschillende biologische processen.
-De GO-analyse liet zien dat vooral immuun-gerelateerde processen verrijkt zijn, zoals leukocyten- en lymfocyten-gemedieerde immuniteit, T-cel differentiatie en B-cel activatie. Deze bevindingen benadrukken de centrale rol van het immuunsysteem bij het ontstaan en de progressie van reumatoïde artritis en komen overeen met eerder onderzoek [6].
-De KEGG pathway analyse bevestigde deze resultaten door de identificatie van belangrijke immuun-gerelateerde pathways, zoals cytokine signaling en de JAK-STAT signaling pathway. Hoewel ook niet-relevante pathways zoals olfactory transduction naar voren kwamen. 
-Voor vervolgonderzoek wordt aanbevolen om strengere filtering van genen toe te passen en meerdere datasets te analyseren om de betrouwbaarheid van de resultaten te vergroten [7].
+De RNA-seq analyse laat zien dat reumatoïde artritis gepaard gaat met systematische verstoringen in immuun-gerelateerde genexpressie, wat de centrale rol vann het immuunsysteem in dit ziektebeeld verder onderbouwt [6]. In plaats van slechts individuele genen te beïnvloeden, wijzen de resultaten op ontregeling  vna complete biologische processen en signaalroutes, waaronder T-cel differentiatie, B-cel activatie en JAK-STAT signalering. [3, 4]
 
+Deze bevindingen suggereren dat RA niet alleen wordt gekenmerkt door lokale ontsteking in het gewricht, maar door brede immuunactivatie op moleculair niveau, wat aansluit bij de huidige inzichten in de pathofysiologie van auto-immuunziekten. De aanwezigheid van niet-relevante pathways, zoals olfactory transduction, benadrukt daarnaast het belang van zorgvuldige filtering en interpretatie bij grootschalige transcriptomics-analyses.
 
-
+Op basis van de resultaten kan worden geconcludeerd dat transcriptomics een waardevolle methode is om ziektespecifieke moleculaire patronen te identificeren die mogelijk kunnen bijdragen aan toekomstige ontwikkelingen. Voor vervolgonderzoek is het aan te bevelen om meerdere datasets te combineren en aanvullende functionele analyses uit te voeren om de robuustheid te vergroten. [7]
 
 ## Referentie 
 [1][Bronnen-Xiong et al2019.pdf](https://github.com/user-attachments/files/28348950/Bronnen-Xiong.et.al2019.pdf)
