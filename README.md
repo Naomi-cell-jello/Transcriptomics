@@ -71,7 +71,7 @@ De GO-analyse (figuur 3) laat zien dat vooral immuun-gerelateerde processen verr
 **Figuur 3. Verrijking GO-proces bij reumatoïde artritis.** Verrijkte GO-processen gebaseerd op significante differentiële genen tussen RA en controles.
 
 # KEGG pathways-analyse - signaalroutes
-Naast de GO-analyse werd een KEGG pathway-analyse uitgevoerd (figuur 4). Deze analyse toont dat vooral immuun-gerelateerde pathways verrijkt zijn, waaronder cytokine-cytokine receptor interaction, JAK-STAT signaling pathway en natural killer cell mediated cytotoxicity. De pathway olfactory transduction werd eveneens verrijkt gevonden, maar deze wordt beschouwd als biologisch irrelevant voor RA vanwege grote hoeveelheid olfactory receptor-genen in het genoom.
+Naast de GO-analyse werd een KEGG pathway-analyse uitgevoerd (figuur 4). Voor de verdere analyse werd specifiek gekeken naar pathway hsa04630 (JAK-STAT signaling pathway). Deze analyse toont dat vooral immuun-gerelateerde pathways verrijkt zijn, waaronder cytokine-cytokine receptor interaction, JAK-STAT signaling pathway en natural killer cell mediated cytotoxicity. De pathway olfactory transduction werd eveneens verrijkt gevonden, maar deze wordt beschouwd als biologisch irrelevant voor RA vanwege grote hoeveelheid olfactory receptor-genen in het genoom.
 
 <p align="center">
 <img src="Figuren/kegg_pathway_plot.png" alt="KEGG_pathway" width="600"/>
