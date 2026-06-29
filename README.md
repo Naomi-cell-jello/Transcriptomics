@@ -6,10 +6,10 @@
 ## Inleiding
 
 
-Rheumatoïde artritis is een chronische auto-immuunziekte die wordt gekenmerkt door ontsteking van de gewrichten. Jaarlijks treft de ziekte ongeveer 1% van de wereldbevolking. Deze ontstekingen kunnen leiden tot blijvende gewrichtsschade en verminderde functionaliteit. De exacte oorzaak van reuma is nog niet volledig bekend [1]. Hoewel bekend is dat immuun-gerelateerde pathways betrokken zijn bij RA, is nog niet volledig duidelijk welke specifieke genexpressieveranderingen optreden in patiëntweefsel. Maar vermoedelijk is het een gevolg van een combinatie van genetische factoren, omgevingsfactoren én een verstoord immuunsysteem. 
-uit eerder onderzoek blijkt dat bij reumatoïde artritis meerdere immuun-gerelateerde pathways verstoord zijn, waaronder cytokine-cytokine receptor interacties, T-cel activaties en JAK-STAT signalering [2]. 
+Reumatoïde artritis is een chronische auto-immuunziekte die wordt gekenmerkt door ontsteking van de gewrichten. Jaarlijks treft de ziekte ongeveer 1% van de wereldbevolking. Deze ontstekingen kunnen leiden tot blijvende gewrichtsschade en verminderde functionaliteit. De exacte oorzaak van reuma is nog niet volledig bekend [1]. Hoewel bekend is dat immuun-gerelateerde pathways betrokken zijn bij RA, is nog niet volledig duidelijk welke specifieke genexpressieveranderingen optreden in patiëntweefsel. Maar vermoedelijk is het een gevolg van een combinatie van genetische factoren, omgevingsfactoren én een verstoord immuunsysteem. 
+Uit eerder onderzoek blijkt dat bij reumatoïde artritis meerdere immuun-gerelateerde pathways verstoord zijn, waaronder cytokine-cytokine receptor interacties, T-cel activaties en JAK-STAT signalering [2]. 
 
-Omdat er momenteel geen genezing bestaat voor reuma is het belangrijk om meer inzicht te krijgen in het moleculaire mechanisme van de ziekte. Transcriptomics biedt mogelijkheid om genexpressiepatronen te analyseren en een verschil tussen gezond en ziek weefsel te identificeren [2]. Hierdoor kunnen betrokken genen en pathways worden getraceerd. In deze analyse wordt RNA-sequentie data geanalyseerd van patiënten met reuma en controles zonder reuma. Het doel van deze analyse is om differentieel tot expressie gebrachte genen te identificeren en te onderzoeken welke Gene Ontology-termen en KEGG pathways betrokken zijn bij de ziekte. De Volledige beschrijving van dit onderzoek is opgenomen in de [README](https://github.com/Naomi-cell-jello/Transcriptomics) van deze repository. De ruwe data is beschikbaar via: [ruwe data](data_RA_raw). De gebruikte dataset is gebaseerd op het artikel van Platzer et al. (2019).
+Omdat er momenteel geen genezing bestaat voor reuma is het belangrijk om meer inzicht te krijgen in het moleculaire mechanisme van de ziekte. Transcriptomics biedt mogelijkheid om genexpressiepatronen te analyseren en een verschil tussen gezond en ziek weefsel te identificeren [2]. Hierdoor kunnen betrokken genen en pathways worden getraceerd. In deze analyse wordt RNA-sequentie data geanalyseerd van patiënten met reuma en controles zonder reuma. Het doel van deze analyse is om differentieel tot expressie gebrachte genen te identificeren en te onderzoeken welke Gene Ontology-termen en KEGG pathways betrokken zijn bij de ziekte. De volledige beschrijving van dit onderzoek is opgenomen in de [README](https://github.com/Naomi-cell-jello/Transcriptomics) van deze repository. De ruwe data is beschikbaar via: [ruwe data](data_RA_raw). De gebruikte dataset is gebaseerd op het artikel van Platzer et al. (2019).
 ## Inhoud/structuur
 
 - `Data_RA_raw` - datasets voor de analyse
@@ -40,7 +40,7 @@ In dit onderzoek werd RNA-seq data geanalyseerd van in totaal acht weefsels, afk
 
 De ruwe sequencing reads werden eerst gemapt naar het humane referentiegenoom (GRCh38), beschikbaar via NCBI:https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.26/. Met behulp van het Rsubread (versie 2.24.0) package in R. Vervolgens werd met featureCounts het aantal reads per gen bepaald, wat resulteerde in een count matrix. 
 
-Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalyseerd met behulp van het DESeq2 (versie 1.50.2) package. Hierbij werden genen met aangepaste p-waarde (padj) <0.05 als significant beschouwd. Om betekenis te geven aan de tot expressie gebrachte genen, werd een Gene Ontology (GO) analyse uitgevoerd met behulp van clusterProfiler (versie  4.18.4) [3]. Hiermee konden genen worden gegroepeerd op basis van hun betrokkenheid bij biologische processen. Daarnaast werd een KEGG pathway analyse uitgevoerd om inzicht te krijgen in welke signaalroutes en pathways betrokken zijn bij reuma. Het flowschema van de analyse is weergegeven in figuur 1. 
+Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalyseerd met behulp van het DESeq2 (versie 1.50.2) package. Hierbij werden genen met aangepaste p-waarde (padj) <0.05 als significant beschouwd. Alle genen met padj < 0.05 werden gebruikt als input voor de GO- en KEGG-analyse. Om betekenis te geven aan de tot expressie gebrachte genen, werd een Gene Ontology (GO) analyse uitgevoerd met behulp van clusterProfiler (versie  4.18.4) [3]. Hiermee konden genen worden gegroepeerd op basis van hun betrokkenheid bij biologische processen. Daarnaast werd een KEGG pathway analyse uitgevoerd om inzicht te krijgen in welke signaalroutes en pathways betrokken zijn bij reuma.Het flowschema van de analyse is weergegeven in figuur 1. 
 <p align="center">
 <img src="Figuren/Flowschema.png" alt="Flowschema" width="1000"/>
 </p>
@@ -50,16 +50,16 @@ Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalys
 
 # Volcano plot - differentiële genexpressie
 
-De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er duidelijke verschillen bestaan in genexpressie tussen patiënten met reumatoïde artritis en gezonde controles. De resultaten van deze analyse zijn gevisualiseerd in een volcanoplot gegenereerd met het R-package EnchandVolcano, weergegeven in figuur 2. 
+De volcano plot werd gegenereerd met behulp van het EnhancedVolcano R-package, waarbij log2 fold change werd uitgezet tegen de -log10(p-waarde). De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er duidelijke verschillen bestaan in genexpressie tussen patiënten met reumatoïde artritis en gezonde controles. De resultaten van deze analyse zijn gevisualiseerd in een volcanoplot gegenereerd met het R-package EnchandVolcano, weergegeven in figuur 2. 
 
-De Volcano plot (figuur 2) toont de verschillen in genexpressie tussen vier RA-samples en vier gezonde controles. In totaal werden 4117 genen significant differentieel tot expressie gebracht (padj < 0.05), waarvan 1984 genen opgereguleerd en 2133 genen neer gereguleerd waren in RA-weefsel ten opzichte van controles. Deze duidelijke verschuiving in expressiepatronen wijst op verstoring van meerdere biologische processen. Alle genen met padj < 0.05 werden gebruikt als input voor de GO- en KEGG-analyse.
+De Volcano plot (figuur 2) toont de verschillen in genexpressie tussen vier RA-samples en vier gezonde controles. In totaal werden 4117 genen significant differentieel tot expressie gebracht (padj < 0.05), waarvan 1984 genen opgereguleerd en 2133 genen neer gereguleerd waren in RA-weefsel ten opzichte van controles. Deze duidelijke verschuiving in expressiepatronen wijst op verstoring van meerdere biologische processen.
 
 
 <p align="center">
 <img src="Figuren/volcano_plot.png" alt="Volcanoplot" width="600"/>
 
 
-**Figuur 2. Volcano plot differentiële genexpressie.** Volcano plot van differentiële genexpressie tussen RA (n=4) en gezonde controles (n=4). Roood: significante opgereguleerde genen. Groen: significante neer gereguleerd. Grijs: niet significant.
+**Figuur 2. Volcano plot differentiële genexpressie.** Volcano plot van differentiële genexpressie tussen RA (n=4) en gezonde controles (n=4). Rood: significante opgereguleerde genen. Groen: significante neer gereguleerd. Grijs: niet significant.
 
 # GO-analyse - biologische processen
 De GO-analyse (figuur 3) laat zien dat vooral immuun-gerelateerde processen verrijkt zijn. de meest significante processen omvatten leukocyte mediated immunity, lymphocyte mediated immunity, T-cell differentiation en B-cell activation. Deze processen zijn kenmerkend voor de verhoogde immuunactiviteit bij reumatoïde artritis.
