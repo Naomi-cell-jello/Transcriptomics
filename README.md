@@ -52,7 +52,7 @@ Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalys
 
 De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er duidelijke verschillen bestaan in genexpressie tussen patiënten met reumatoïde artritis en gezonde controles. De resultaten van deze analyse zijn gevisualiseerd in een volcanoplot gegenereerd met het R-package EnchandVolcano, weergegeven in figuur 2. 
 
-De Volcano plot (figuur 2) toont de verschillen in genexpressie tussen vier RA-samples en vier gezonde controles. In totaal werden ongeveer 150 genen significant differentieel tot expressie gebracht (padj < 0.05), waarvan ongeveer 50 genen opgereguleerd en 60 genen neer gereguleerd in RA-weefsel. Deze duidelijke verschuiving in expressiepatronen wijst op verstoring van meerdere biologische processen. Alle genen met padj < 0.05 werden gebruikt als input voor de GO- en KEGG-analyse.
+De Volcano plot (figuur 2) toont de verschillen in genexpressie tussen vier RA-samples en vier gezonde controles. In totaal werden 4117 genen significant differentieel tot expressie gebracht (padj < 0.05), waarvan 1984 genen opgereguleerd en 2133 genen neer gereguleerd waren in RA-weefsel ten opzichte van controles. Deze duidelijke verschuiving in expressiepatronen wijst op verstoring van meerdere biologische processen. Alle genen met padj < 0.05 werden gebruikt als input voor de GO- en KEGG-analyse.
 
 
 <p align="center">
