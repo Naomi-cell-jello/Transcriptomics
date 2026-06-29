@@ -38,7 +38,7 @@ In dit onderzoek werd RNA-seq data geanalyseerd van in totaal acht weefsels, afk
 
 
 
-De ruwe sequencing reads werden eerst gemapt naar het humane referentiegenoom (GRCh38), beschikbaar via NCBI:https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.26/.  met behulp van het Rsubread (versie 2.24.0) package in R. Vervolgens werd met featureCounts het aantal reads per gen bepaald, wat resulteerde in een count matrix. 
+De ruwe sequencing reads werden eerst gemapt naar het humane referentiegenoom (GRCh38), beschikbaar via NCBI:https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.26/. Met behulp van het Rsubread (versie 2.24.0) package in R. Vervolgens werd met featureCounts het aantal reads per gen bepaald, wat resulteerde in een count matrix. 
 
 Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalyseerd met behulp van het DESeq2 (versie 1.50.2) package. Hierbij werden genen met aangepaste p-waarde (padj) <0.05 als significant beschouwd. Om betekenis te geven aan de tot expressie gebrachte genen, werd een Gene Ontology (GO) analyse uitgevoerd met behulp van clusterProfiler (versie  4.18.4) [3]. Hiermee konden genen worden gegroepeerd op basis van hun betrokkenheid bij biologische processen. Daarnaast werd een KEGG pathway analyse uitgevoerd om inzicht te krijgen in welke signaalroutes en pathways betrokken zijn bij reuma. Het flowschema van de analyse is weergegeven in figuur 1. 
 <p align="center">
