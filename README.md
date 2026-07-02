@@ -50,7 +50,7 @@ Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalys
 
 # Volcano plot - differentiële genexpressie
 
-De volcano plot werd gegenereerd met behulp van het EnhancedVolcano R-package, waarbij log2 fold change werd uitgezet tegen de -log10(p-waarde). De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er duidelijke verschillen bestaan in genexpressie tussen patiënten met reumatoïde artritis en gezonde controles. De resultaten van deze analyse zijn gevisualiseerd in een volcanoplot gegenereerd met het R-package EnchandVolcano, weergegeven in figuur 2. 
+De volcano plot werd gegenereerd met behulp van het EnhancedVolcano R-package, waarbij log2 fold change werd uitgezet tegen de -log10(p-waarde). De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er duidelijke verschillen bestaan in genexpressie tussen patiënten met reumatoïde artritis en gezonde controles. De resultaten van deze analyse zijn gevisualiseerd in een volcanoplot gegenereerd met het R-package EnhancedVolcano, weergegeven in figuur 2. 
 
 De Volcano plot (figuur 2) toont de verschillen in genexpressie tussen vier RA-samples en vier gezonde controles. In totaal werden 4117 genen significant differentieel tot expressie gebracht (padj < 0.05), waarvan 1984 genen opgereguleerd en 2133 genen neer gereguleerd waren in RA-weefsel ten opzichte van controles. Deze duidelijke verschuiving in expressiepatronen wijst op verstoring van meerdere biologische processen.
 
@@ -85,7 +85,7 @@ Gezamenlijk tonen deze resultaten aan dat veranderingen in genexpressie bij reum
 het volledige script dat voor deze analyse is gebruikt is beschikbaar in deze Github repository (zie map ‘Casus R’).
 
 ## Conclusie
-De RNA-seq analyse laat zien dat reumatoïde artritis gepaard gaat met systematische verstoringen in immuun-gerelateerde genexpressie, wat de centrale rol vann het immuunsysteem in dit ziektebeeld verder onderbouwt [6]. In plaats van slechts individuele genen te beïnvloeden, wijzen de resultaten op ontregeling  vna complete biologische processen en signaalroutes, waaronder T-cel differentiatie, B-cel activatie en JAK-STAT signalering. [3, 4]
+De RNA-seq analyse laat zien dat reumatoïde artritis gepaard gaat met systematische verstoringen in immuun-gerelateerde genexpressie, wat de centrale rol van het immuunsysteem in dit ziektebeeld verder onderbouwt [6]. In plaats van slechts individuele genen te beïnvloeden, wijzen de resultaten op ontregeling van complete biologische processen en signaalroutes, waaronder T-cel differentiatie, B-cel activatie en JAK-STAT signalering. [3, 4]
 
 Deze bevindingen suggereren dat RA niet alleen wordt gekenmerkt door lokale ontsteking in het gewricht, maar door brede immuunactivatie op moleculair niveau, wat aansluit bij de huidige inzichten in de pathofysiologie van auto-immuunziekten. De aanwezigheid van niet-relevante pathways, zoals olfactory transduction, benadrukt daarnaast het belang van zorgvuldige filtering en interpretatie bij grootschalige transcriptomics-analyses.
 
