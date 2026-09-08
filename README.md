@@ -85,7 +85,7 @@ Gezamenlijk tonen deze resultaten aan dat veranderingen in genexpressie bij reum
 het volledige script dat voor deze analyse is gebruikt is beschikbaar in deze Github repository (zie map ‘Casus R’).
 
 <p align="center">
-<img src="Figuren/hsa05323.pathvies.png" alt="Aanvullende KEGG_pathway" width="600"/>
+<img src="Figuren/hsa05323_pathvies.png" alt="Aanvullende KEGG_pathway" width="600"/>
 </p>
 **Figuur 5. Aanvullende pathway-analyse** Visualisatie van de verrijkte RA-gerelateerde pathway op basis van de differentiële genexpressieanalyse.
 
