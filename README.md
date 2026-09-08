@@ -22,7 +22,7 @@ Omdat er momenteel geen genezing bestaat voor reuma is het belangrijk om meer in
 
 ## Methode
 
-In dit onderzoek werd RNA-seq data geanalyseerd van in totaal acht weefsels, afkomstig van vier gezonde controles en vier patiënten met rheumatoïde artritis. In tabel 1 is een overzicht weergegeven van de metadata van de gebruikte samples, waaronder leeftijd, geslacht en de conditie. De gebruikte [scripts](https://github.com/Naomi-cell-jello/Transcriptomics/blob/main/Casus%20R.R), [ruwe data](https://github.com/Naomi-cell-jello/Transcriptomics/blob/main/Data_RA_raw%20(1).zip), [informatie over de Metadata](https://github.com/Naomi-cell-jello/Transcriptomics/blob/main/Bronnen/Informatie%20casus%20RA.pdf) en [informatie over de packages](https://github.com/Naomi-cell-jello/Transcriptomics/blob/main/Informatie%20packages%20R.docx) zijn opgenomen in de Github-repository.
+In dit onderzoek werd RNA-seq data geanalyseerd van in totaal acht weefsels, afkomstig van vier gezonde controles en vier patiënten met rheumatoïde artritis. In tabel 1 is een overzicht weergegeven van de metadata van de gebruikte samples, waaronder leeftijd, geslacht en de conditie. De gebruikte [scripts](https://github.com/Naomi-cell-jello/Transcriptomics/blob/main/Casus.2.R), [ruwe data](https://github.com/Naomi-cell-jello/Transcriptomics/blob/main/Data_RA_raw%20(1).zip), [informatie over de Metadata](https://github.com/Naomi-cell-jello/Transcriptomics/blob/main/Bronnen/Informatie%20casus%20RA.pdf) en [informatie over de packages](https://github.com/Naomi-cell-jello/Transcriptomics/blob/main/Informatie%20packages%20R.docx) zijn opgenomen in de Github-repository.
 ### Tabel 1. Metadata van de samples
 
 | Sample ID   | Leeftijd | Geslacht | Conditie                              |
