@@ -61,7 +61,7 @@ De Volcano plot (figuur 2) toont de verschillen in genexpressie tussen vier RA-s
 
 **Figuur 2. Volcano plot differentiële genexpressie.** Volcano plot van differentiële genexpressie tussen RA (n=4) en gezonde controles (n=4). Rood: significante opgereguleerde genen. Groen: significante neer gereguleerd. Grijs: niet significant.
 
-# GO-analyse - biologische processen
+
 De GO-analyse (figuur 3) laat zien dat vooral immuun-gerelateerde processen verrijkt zijn. de meest significante processen omvatten leukocyte mediated immunity, lymphocyte mediated immunity, T-cell differentiation en B-cell activation. Deze processen zijn kenmerkend voor de verhoogde immuunactiviteit bij reumatoïde artritis.
 
 <p align="center">
