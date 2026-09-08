@@ -87,9 +87,7 @@ Om de resultaten verder biologisch te interpreteren werd de Rheumatoid Arthritis
 </p>
 <strong>Figuur 5. Visualisatie van de Rheumatoid Arthritis pathway op basis van de differentiële genexpressieanalyse.</strong>&nbsp;Rood weergegeven genen zijn opgereguleerd, terwijl groen weergegeven genen neer gereguleerd zijn ten opzichte van gezonde controles. 
 
-<br>Deze processen zijn geassocieerd met activatie van zowel het aangeboren als het adaptieve immuunsysteem [3]. Daarnaast werd ook de pathway olfactory transduction sterk gevonden. Deze pathway is gerelateerd aan reukreceptoren en is niet relevant voor reumatoïde artritis. De verschijning van deze pathway in de analyse is verklaarbaar door de grote hoeveelheid olfactory receptor genen in het genoom [5]. 
-Gezamenlijk tonen deze resultaten aan dat veranderingen in genexpressie bij reumatoïde artritis voornamelijk gerelateerd zijn aan immuunactivatie en ontstekingsprocessen.
-
+<br>De resultaten van de aanvullende pathway-analyse ondersteunen de bevinding dat verstoringen in immuun- en ontstekingsprocessen een belangrijke rol spelen bij reumatoïde artritis.
 ## Conclusie
 De RNA-seq analyse laat zien dat reumatoïde artritis gepaard gaat met systematische verstoringen in immuun-gerelateerde genexpressie, wat de centrale rol van het immuunsysteem in dit ziektebeeld verder onderbouwt [6]. In plaats van slechts individuele genen te beïnvloeden, wijzen de resultaten op ontregeling van complete biologische processen en signaalroutes, waaronder T-cel differentiatie, B-cel activatie en JAK-STAT signalering. [3, 4]
 
