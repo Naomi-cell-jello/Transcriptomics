@@ -48,7 +48,7 @@ Differentiële genexpressie tussen de controlegroep en de RA-groep werd geanalys
 
 **Figuur 1. Flowschema.** Overzicht van de RNA-seq analyse. De figuur toont de stappen van referentiegenoom-indexeren en mapping van de RNA-seq reads tot statistische analyse.
 
-# Volcano plot - differentiële genexpressie
+# Resultaten
 
 De volcano plot werd gegenereerd met behulp van het EnhancedVolcano R-package, waarbij log2 fold change werd uitgezet tegen de -log10(p-waarde). De differentiële genexpressie analyse met behulp van DESeq2 toonde aan dat er duidelijke verschillen bestaan in genexpressie tussen patiënten met reumatoïde artritis en gezonde controles. De resultaten van deze analyse zijn gevisualiseerd in een volcanoplot gegenereerd met het R-package EnhancedVolcano, weergegeven in figuur 2. 
 
@@ -70,7 +70,7 @@ De GO-analyse (figuur 3) laat zien dat vooral immuun-gerelateerde processen verr
 
 **Figuur 3. Verrijking GO-proces bij reumatoïde artritis.** Verrijkte GO-processen gebaseerd op significante differentiële genen tussen RA en controles.
 
-# KEGG pathways-analyse - signaalroutes
+
 Naast de GO-analyse werd een KEGG pathway-analyse uitgevoerd (figuur 4). Voor de verdere analyse werd specifiek gekeken naar pathway hsa04630 (JAK-STAT signaling pathway). Deze analyse toont dat vooral immuun-gerelateerde pathways verrijkt zijn, waaronder cytokine-cytokine receptor interaction, JAK-STAT signaling pathway en natural killer cell mediated cytotoxicity. De pathway olfactory transduction werd eveneens verrijkt gevonden, maar deze wordt beschouwd als biologisch irrelevant voor RA vanwege grote hoeveelheid olfactory receptor-genen in het genoom.
 
 <p align="center">
