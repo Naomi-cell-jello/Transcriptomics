@@ -95,7 +95,7 @@ De RNA-seq analyse laat zien dat reumatoïde artritis gepaard gaat met systemati
 
 Deze bevindingen suggereren dat RA niet alleen wordt gekenmerkt door lokale ontsteking in het gewricht, maar door brede immuunactivatie op moleculair niveau, wat aansluit bij de huidige inzichten in de pathofysiologie van auto-immuunziekten. De aanwezigheid van niet-relevante pathways, zoals olfactory transduction, benadrukt daarnaast het belang van zorgvuldige filtering en interpretatie bij grootschalige transcriptomics-analyses.
 
-Op basis van de resultaten kan worden geconcludeerd dat transcriptomics een waardevolle methode is om ziektespecifieke moleculaire patronen te identificeren die mogelijk kunnen bijdragen aan toekomstige ontwikkelingen. Voor vervolgonderzoek is het aan te bevelen om meerdere datasets te combineren en aanvullende functionele analyses uit te voeren om de robuustheid te vergroten. [7]
+Op basis van de resultaten kan worden geconcludeerd dat transcriptomics een waardevolle methode is om ziektespecifieke moleculaire patronen te identificeren die mogelijk kunnen bijdragen aan toekomstige ontwikkelingen. Voor vervolgonderzoek wordt aanbevolen om grotere datasets te gebruiken en aanvullende analyses uit te voeren om de betrouwbaarheid van de resultaten verder te vergroten [7].
 
 ## Referentie 
 [1][Bronnen-Xiong et al2019.pdf](https://github.com/user-attachments/files/28348950/Bronnen-Xiong.et.al2019.pdf)
