@@ -84,6 +84,11 @@ Deze processen zijn geassocieerd met activatie van zowel het aangeboren als het 
 Gezamenlijk tonen deze resultaten aan dat veranderingen in genexpressie bij reumatoïde artritis voornamelijk gerelateerd zijn aan immuunactivatie en ontstekingsprocessen.
 het volledige script dat voor deze analyse is gebruikt is beschikbaar in deze Github repository (zie map ‘Casus R’).
 
+<p align="center">
+<img src="Figuren/hsa05323.pathvies.png" alt="Aanvullende KEGG_pathway" width="600"/>
+</p>
+**Figuur 5. Aanvullende pathway-analyse** Visualisatie van de verrijkte RA-gerelateerde pathway op basis van de differentiële genexpressieanalyse.
+
 ## Conclusie
 De RNA-seq analyse laat zien dat reumatoïde artritis gepaard gaat met systematische verstoringen in immuun-gerelateerde genexpressie, wat de centrale rol van het immuunsysteem in dit ziektebeeld verder onderbouwt [6]. In plaats van slechts individuele genen te beïnvloeden, wijzen de resultaten op ontregeling van complete biologische processen en signaalroutes, waaronder T-cel differentiatie, B-cel activatie en JAK-STAT signalering. [3, 4]
 
