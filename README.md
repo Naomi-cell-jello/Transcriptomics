@@ -71,7 +71,7 @@ De GO-analyse (figuur 3) laat zien dat vooral immuun-gerelateerde processen verr
 **Figuur 3. Verrijking GO-proces bij reumatoïde artritis.** Verrijkte GO-processen gebaseerd op significante differentiële genen tussen RA en controles.
 
 
-Naast de GO-analyse werd een KEGG pathway-analyse uitgevoerd (figuur 4). Voor de verdere analyse werd specifiek gekeken naar pathway hsa04630 (JAK-STAT signaling pathway). Deze analyse toont dat vooral immuun-gerelateerde pathways verrijkt zijn, waaronder cytokine-cytokine receptor interaction, JAK-STAT signaling pathway en natural killer cell mediated cytotoxicity. De pathway olfactory transduction werd eveneens verrijkt gevonden, maar deze wordt beschouwd als biologisch irrelevant voor RA vanwege grote hoeveelheid olfactory receptor-genen in het genoom.
+Naast de GO-analyse werd een KEGG pathway-analyse uitgevoerd (figuur 4). Deze analyse liet zien dat verschillende immuun-gerelateerde pathways verrijkt zijn, waaronder cytokine-cytokine receptor interaction, de JAK-STAT signaling pathway en natural killer cell mediated cytotoxicity. De pathway olfactory transduction werd eveneens verrijkt gevonden, maar wordt beschouwd als biologisch minder relevant voor reumatoïde artritis vanwege het grote aantal olfactory receptor-genen in het humane genoom.
 
 <p align="center">
 <img src="Figuren/kegg_pathway_plot.png" alt="KEGG_pathway" width="600"/>
@@ -83,6 +83,8 @@ Naast de GO-analyse werd een KEGG pathway-analyse uitgevoerd (figuur 4). Voor de
 Deze processen zijn geassocieerd met activatie van zowel het aangeboren als het adaptieve immuunsysteem [3]. Daarnaast werd ook de pathway olfactory transduction sterk gevonden. Deze pathway is gerelateerd aan reukreceptoren en is niet relevant voor reumatoïde artritis. De verschijning van deze pathway in de analyse is verklaarbaar door de grote hoeveelheid olfactory receptor genen in het genoom [5]. 
 Gezamenlijk tonen deze resultaten aan dat veranderingen in genexpressie bij reumatoïde artritis voornamelijk gerelateerd zijn aan immuunactivatie en ontstekingsprocessen.
 het volledige script dat voor deze analyse is gebruikt is beschikbaar in deze Github repository (zie map ‘Casus R’).
+
+Om de resultaten verder biologisch te interpreteren werd de Rheumatoid Arthritis pathway (hsa05323) gevisualiseerd met behulp van Pathview (figuur 5). In deze pathway zijn meerdere differentieel tot expressie gebrachte genen zichtbaar die betrokken zijn bij immuunactivatie, cytokinesignalering en ontstekingsprocessen. Verschillende genen binnen de pathway zijn opgereguleerd (rood), terwijl andere genen neer gereguleerd zijn (groen). Deze resultaten ondersteunen de bevinding dat verstoringen in immuun-gerelateerde processen een centrale rol spelen bij het ontstaan en de instandhouding van reumatoïde artritis.
 
 <p align="center">
 <img src="Figuren/hsa05323_pathview.png" alt="Aanvullende KEGG_pathway" width="600"/>
