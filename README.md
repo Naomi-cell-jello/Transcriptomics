@@ -85,7 +85,9 @@ Om de resultaten verder biologisch te interpreteren werd de Rheumatoid Arthritis
 <p align="center">
 <img src="Figuren/hsa05323_pathview.png" alt="Aanvullende KEGG_pathway" width="600"/>
 </p>
-<strong>Figuur 5. Visualisatie van de Rheumatoid Arthritis pathway op basis van de differentiële genexpressieanalyse.</strong>&nbsp;Rood weergegeven genen zijn opgereguleerd, terwijl groen weergegeven genen neer gereguleerd zijn ten opzichte van gezonde controles. <br> Deze processen zijn geassocieerd met activatie van zowel het aangeboren als het adaptieve immuunsysteem [3]. Daarnaast werd ook de pathway olfactory transduction sterk gevonden. Deze pathway is gerelateerd aan reukreceptoren en is niet relevant voor reumatoïde artritis. De verschijning van deze pathway in de analyse is verklaarbaar door de grote hoeveelheid olfactory receptor genen in het genoom [5]. 
+<strong>Figuur 5. Visualisatie van de Rheumatoid Arthritis pathway op basis van de differentiële genexpressieanalyse.</strong>&nbsp;Rood weergegeven genen zijn opgereguleerd, terwijl groen weergegeven genen neer gereguleerd zijn ten opzichte van gezonde controles. 
+
+<br>Deze processen zijn geassocieerd met activatie van zowel het aangeboren als het adaptieve immuunsysteem [3]. Daarnaast werd ook de pathway olfactory transduction sterk gevonden. Deze pathway is gerelateerd aan reukreceptoren en is niet relevant voor reumatoïde artritis. De verschijning van deze pathway in de analyse is verklaarbaar door de grote hoeveelheid olfactory receptor genen in het genoom [5]. 
 Gezamenlijk tonen deze resultaten aan dat veranderingen in genexpressie bij reumatoïde artritis voornamelijk gerelateerd zijn aan immuunactivatie en ontstekingsprocessen.
 
 ## Conclusie
