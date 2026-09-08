@@ -22,7 +22,7 @@ Omdat er momenteel geen genezing bestaat voor reuma is het belangrijk om meer in
 
 ## Methode
 
-In dit onderzoek werd RNA-seq data geanalyseerd van in totaal acht weefsels, afkomstig van vier gezonde controles en vier patiënten met rheumatoïde artritis. In tabel 1 is een overzicht weergegeven van de metadata van de gebruikte samples, waaronder leeftijd, geslacht en de conditie.
+In dit onderzoek werd RNA-seq data geanalyseerd van in totaal acht weefsels, afkomstig van vier gezonde controles en vier patiënten met rheumatoïde artritis. In tabel 1 is een overzicht weergegeven van de metadata van de gebruikte samples, waaronder leeftijd, geslacht en de conditie. De ruwe sequencingdata zijn aangeleverd als FASTQ-bestanden, deze zijn terug te vinden onder "Data RA raw".
 ### Tabel 1. Metadata van de samples
 
 | Sample ID   | Leeftijd | Geslacht | Conditie                              |
